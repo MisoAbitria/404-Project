@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		A81140F126A78E7400CBE0A3 /* SignInPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81140F026A78E7400CBE0A3 /* SignInPageViewController.swift */; };
 		A81140F326A78EAC00CBE0A3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81140F226A78EAC00CBE0A3 /* SignUpViewController.swift */; };
+		A85B096E26AA1516004E81B7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B096D26AA1516004E81B7 /* MenuViewController.swift */; };
+		A85B097026AA152B004E81B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B096F26AA152B004E81B7 /* HomeViewController.swift */; };
+		A85B097226AA1D24004E81B7 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B097126AA1D24004E81B7 /* SlideInTransition.swift */; };
+		A85B097426AA2A2E004E81B7 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B097326AA2A2E004E81B7 /* SearchBarViewController.swift */; };
+		A85B097626AA3136004E81B7 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B097526AA3136004E81B7 /* MoreViewController.swift */; };
 		A8E5F8DA26A740C400261239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E5F8D926A740C400261239 /* AppDelegate.swift */; };
 		A8E5F8DC26A740C400261239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E5F8DB26A740C400261239 /* SceneDelegate.swift */; };
 		A8E5F8DE26A740C400261239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E5F8DD26A740C400261239 /* ViewController.swift */; };
@@ -40,6 +45,11 @@
 /* Begin PBXFileReference section */
 		A81140F026A78E7400CBE0A3 /* SignInPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPageViewController.swift; sourceTree = "<group>"; };
 		A81140F226A78EAC00CBE0A3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A85B096D26AA1516004E81B7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A85B096F26AA152B004E81B7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A85B097126AA1D24004E81B7 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		A85B097326AA2A2E004E81B7 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		A85B097526AA3136004E81B7 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		A8E5F8D626A740C400261239 /* LostPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E5F8D926A740C400261239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8E5F8DB26A740C400261239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,12 +119,17 @@
 				A8E5F8DB26A740C400261239 /* SceneDelegate.swift */,
 				A8E5F8DD26A740C400261239 /* ViewController.swift */,
 				A8E5F8DF26A740C400261239 /* Main.storyboard */,
+				A85B097526AA3136004E81B7 /* MoreViewController.swift */,
+				A85B097326AA2A2E004E81B7 /* SearchBarViewController.swift */,
 				A81140F226A78EAC00CBE0A3 /* SignUpViewController.swift */,
 				A81140F026A78E7400CBE0A3 /* SignInPageViewController.swift */,
 				A8E5F8E526A740C500261239 /* Assets.xcassets */,
 				A8E5F8E726A740C500261239 /* LaunchScreen.storyboard */,
 				A8E5F8EA26A740C500261239 /* Info.plist */,
 				A8E5F8E226A740C400261239 /* LostPage.xcdatamodeld */,
+				A85B096D26AA1516004E81B7 /* MenuViewController.swift */,
+				A85B096F26AA152B004E81B7 /* HomeViewController.swift */,
+				A85B097126AA1D24004E81B7 /* SlideInTransition.swift */,
 			);
 			path = LostPage;
 			sourceTree = "<group>";
@@ -267,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85B097226AA1D24004E81B7 /* SlideInTransition.swift in Sources */,
 				A81140F326A78EAC00CBE0A3 /* SignUpViewController.swift in Sources */,
 				A8E5F8E426A740C400261239 /* LostPage.xcdatamodeld in Sources */,
 				A8E5F8DE26A740C400261239 /* ViewController.swift in Sources */,
+				A85B097626AA3136004E81B7 /* MoreViewController.swift in Sources */,
+				A85B097026AA152B004E81B7 /* HomeViewController.swift in Sources */,
+				A85B096E26AA1516004E81B7 /* MenuViewController.swift in Sources */,
+				A85B097426AA2A2E004E81B7 /* SearchBarViewController.swift in Sources */,
 				A8E5F8DA26A740C400261239 /* AppDelegate.swift in Sources */,
 				A8E5F8DC26A740C400261239 /* SceneDelegate.swift in Sources */,
 				A81140F126A78E7400CBE0A3 /* SignInPageViewController.swift in Sources */,
